@@ -9,7 +9,7 @@ public class Codelab1 {
         String nama = scanner.nextLine();
 
         System.out.print("Masukkan jenis kelamin (P/L): ");
-        char jenisKelaminInput = scanner.next().charAt(0);
+        char InputjenisKelamin = scanner.next().charAt(0);
 
         System.out.print("Masukkan tahun lahir: ");
         int tahunLahir = scanner.nextInt();
@@ -17,9 +17,9 @@ public class Codelab1 {
         scanner.close();
 
         String jenisKelamin;
-        if (jenisKelaminInput == 'L' || jenisKelaminInput == 'l') {
+        if (InputjenisKelamin == 'L' || InputjenisKelamin == 'l') {
             jenisKelamin = "Laki-laki";
-        } else if (jenisKelaminInput == 'P' || jenisKelaminInput == 'p') {
+        } else if (InputjenisKelamin == 'P' || InputjenisKelamin == 'p') {
             jenisKelamin = "Perempuan";
         } else {
             jenisKelamin = "Tidak diketahui";
